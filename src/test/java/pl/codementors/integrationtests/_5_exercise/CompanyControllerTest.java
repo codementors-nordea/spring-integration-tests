@@ -1,4 +1,4 @@
-package pl.infoshare.integrationtests._5_exercise;
+package pl.codementors.integrationtests._5_exercise;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;

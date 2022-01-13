@@ -1,12 +1,12 @@
-package pl.infoshare.integrationtests._6_exercise;
+package pl.codementors.integrationtests._6_exercise;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
-import pl.infoshare.integrationtests._6_exercise.comments.domain.Comment;
-import pl.infoshare.integrationtests._6_exercise.comments.domain.CommentRepository;
-import pl.infoshare.integrationtests._6_exercise.notes.domain.*;
+import pl.codementors.integrationtests._6_exercise.comments.domain.Comment;
+import pl.codementors.integrationtests._6_exercise.comments.domain.CommentRepository;
+import pl.codementors.integrationtests._6_exercise.notes.domain.*;
 
 import java.util.List;
 

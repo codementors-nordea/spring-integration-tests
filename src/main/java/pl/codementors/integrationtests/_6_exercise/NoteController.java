@@ -1,20 +1,20 @@
-package pl.infoshare.integrationtests._6_exercise;
+package pl.codementors.integrationtests._6_exercise;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import pl.infoshare.integrationtests._6_exercise.comments.CommentCreateService;
-import pl.infoshare.integrationtests._6_exercise.comments.CommentFetchService;
-import pl.infoshare.integrationtests._6_exercise.comments.domain.Comment;
-import pl.infoshare.integrationtests._6_exercise.comments.domain.CommentRepository;
-import pl.infoshare.integrationtests._6_exercise.model.CommentCreateRequest;
-import pl.infoshare.integrationtests._6_exercise.model.NoteCreateRequest;
-import pl.infoshare.integrationtests._6_exercise.notes.NoteCreateService;
-import pl.infoshare.integrationtests._6_exercise.notes.NoteDeleteService;
-import pl.infoshare.integrationtests._6_exercise.notes.NoteFetchService;
-import pl.infoshare.integrationtests._6_exercise.notes.domain.Note;
-import pl.infoshare.integrationtests._6_exercise.notes.domain.NoteRepository;
-import pl.infoshare.integrationtests._6_exercise.notes.domain.Tag;
-import pl.infoshare.integrationtests._6_exercise.notes.domain.TagRepository;
+import pl.codementors.integrationtests._6_exercise.comments.CommentCreateService;
+import pl.codementors.integrationtests._6_exercise.comments.CommentFetchService;
+import pl.codementors.integrationtests._6_exercise.comments.domain.Comment;
+import pl.codementors.integrationtests._6_exercise.comments.domain.CommentRepository;
+import pl.codementors.integrationtests._6_exercise.model.CommentCreateRequest;
+import pl.codementors.integrationtests._6_exercise.model.NoteCreateRequest;
+import pl.codementors.integrationtests._6_exercise.notes.NoteCreateService;
+import pl.codementors.integrationtests._6_exercise.notes.NoteDeleteService;
+import pl.codementors.integrationtests._6_exercise.notes.NoteFetchService;
+import pl.codementors.integrationtests._6_exercise.notes.domain.Note;
+import pl.codementors.integrationtests._6_exercise.notes.domain.NoteRepository;
+import pl.codementors.integrationtests._6_exercise.notes.domain.Tag;
+import pl.codementors.integrationtests._6_exercise.notes.domain.TagRepository;
 
 import javax.annotation.PostConstruct;
 import java.util.List;

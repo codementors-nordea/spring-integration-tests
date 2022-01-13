@@ -1,4 +1,4 @@
-package pl.infoshare.integrationtests._1_exercise;
+package pl.codementors.integrationtests._1_exercise;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;

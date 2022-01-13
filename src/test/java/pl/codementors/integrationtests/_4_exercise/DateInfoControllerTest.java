@@ -1,4 +1,4 @@
-package pl.infoshare.integrationtests._4_exercise;
+package pl.codementors.integrationtests._4_exercise;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.BeforeEach;
@@ -9,9 +9,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.transaction.annotation.Transactional;
-import pl.infoshare.integrationtests._4_exercise.model.AddNamesRequest;
-import pl.infoshare.integrationtests._4_exercise.names.NameDay;
-import pl.infoshare.integrationtests._4_exercise.names.NameDayRepository;
+import pl.codementors.integrationtests._4_exercise.model.AddNamesRequest;
+import pl.codementors.integrationtests._4_exercise.names.NameDay;
+import pl.codementors.integrationtests._4_exercise.names.NameDayRepository;
 
 import java.time.LocalDate;
 import java.time.Month;

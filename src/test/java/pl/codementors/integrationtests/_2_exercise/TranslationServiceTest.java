@@ -1,4 +1,4 @@
-package pl.infoshare.integrationtests._2_exercise;
+package pl.codementors.integrationtests._2_exercise;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentCaptor;
